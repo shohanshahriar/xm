@@ -1,0 +1,48 @@
+.btn{
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	background: #009578;
+	border: none;
+	outline: none;
+	background: linear-gradient(to bottom, rgba(19,88,127,.7) 0%, rgba(19,88,127,.7) 60%, #427399 60%, #427399 100% );
+}
+.btn_text{
+	text-align: center;
+	color: white;
+}
+.btn p{
+	text-align: center;
+}
+.btn 
+.btn_icon{}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    background: #009578;
+}
+.slick-next {
+    right: -25px;
+}
+.slick-prev {
+    left: -25px;
+}
+.slick-dots li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
